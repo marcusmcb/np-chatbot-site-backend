@@ -1,0 +1,31 @@
+{
+  "name": "np-chatbot-site-backend",
+  "version": "1.0.0",
+  "description": "Database &amp; API for npChatbot.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcusmcb/np-chatbot-site-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcusmcb/np-chatbot-site-backend/issues"
+  },
+  "homepage": "https://github.com/marcusmcb/np-chatbot-site-backend#readme",
+  "dependencies": {
+    "@prisma/client": "^6.8.2",
+    "express": "^5.1.0",
+    "prisma": "^6.8.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.18",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  }
+}
